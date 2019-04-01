@@ -9,7 +9,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
 
-  background-image: url("https://us.123rf.com/450wm/evgeniyorel/evgeniyorel1707/evgeniyorel170700014/83081173-patr%C3%B3n-sin-fisuras-con-hamburguesa-o-hamburguesa-fondo-de-comida-r%C3%A1pida-para-pancarta-restaurante-comida-.jpg?ver=6");
+  background-color: #e0431b;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
 }
 
 #body-content,
@@ -20,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  margin: 4%;
+  margin: 2.5%;
   padding: auto;
 
   color: whitesmoke;
