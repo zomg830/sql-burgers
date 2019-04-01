@@ -1,0 +1,33 @@
+body {
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-image: url("https://us.123rf.com/450wm/evgeniyorel/evgeniyorel1707/evgeniyorel170700014/83081173-patr%C3%B3n-sin-fisuras-con-hamburguesa-o-hamburguesa-fondo-de-comida-r%C3%A1pida-para-pancarta-restaurante-comida-.jpg?ver=6");
+}
+
+#body-content,
+#head,
+#avail,
+#devoured,
+#add {
+  display: flex;
+  flex-direction: column;
+
+  margin: 4%;
+  padding: auto;
+
+  color: whitesmoke;
+  text-shadow: -1px 0 #888888, 0 1px #888888, 1px 0 #888888, 0 -1px #888888;
+}
+
+#body-content {
+  background-color: rgba(136, 136, 136, 0.9);
+  border-radius: 25px;
+}

@@ -1,5 +1,6 @@
-<h1>Eat Da Burger!</h1>
-<br>
+<div id="head">
+    <h1>Eat Da Burger!</h1>
+</div>
 
 <div id='avail'>
     <h2>Burgers Available to Eat:</h2>
@@ -28,13 +29,11 @@
     </ul>
 </div>
 
-<div id='add'>
-    <h2>Add a Burger: </h2>
-    <form class="create-update-form" action="/" method="POST">
-        <div class="form-group">
-            <label for="dab">Burger Name:</label>
-            <input type="text" id="dab" name="burger_name">
+<div id="add">
+    <form class="ui form" action="/" method="POST">
+        <div class="field">
+            <input type="text" id="dab" name="burger_name" placeholder="Add a burger!">
         </div>
-        <button class="btn btn-primary" type="submit">Add Burger</button>
+        <button class="ui button" type="submit">Submit</button>
     </form>
 </div>
