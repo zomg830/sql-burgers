@@ -1,7 +1,7 @@
 body {
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 650px;
+  max-width: 75vw;
   margin: 0 auto;
   padding: 0 16px;
 
@@ -14,7 +14,6 @@ body {
 }
 
 #body-content,
-#head,
 #avail,
 #devoured,
 #add {
@@ -26,6 +25,14 @@ body {
 
   color: whitesmoke;
   text-shadow: -1px 0 #888888, 0 1px #888888, 1px 0 #888888, 0 -1px #888888;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+
+  margin: auto;
+  padding: auto;
 }
 
 #body-content {
